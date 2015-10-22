@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: none;
+}
+html,
+body {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  font-family: Comic Sans MS;
+  background-image:url('http://www.wisdomweb.ru/editor/spider2.gif');
+  background-repeat:repeat-y;
+  background-position:56px 50px;
+  background-color: lightgrey
+
+}
+.post__header {
+  position: absolute;
+  top: 0;
+  bottom: ;
+  width: 50%;
+  background-color:red ;
+  color: yellow;
+  border:solid blue 3px
+}
+.post__headerNav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.post__headerNav > li {
+  display: inline-block;
+  color:blue
+}
+.post__headerNav > li:after {
+  content: "-";
+}
+.post__headerNav > li:last-of-type:after {
+  content: none;
+}
+.post__headerNav > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+.post__content {
+  width: 50%;
+  margin-left: 50%;
+  min-height: 200px;
+  padding: 40px;
+  line-height: 27px;
+  color: red;
+  background-color:
+}
